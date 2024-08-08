@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP1 Programacion</title>
+
+    <link rel="stylesheet" href="styles/page.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/form.css">
+
+</head>
+
+<body>
+
+    <div class="content">
+
+        <header>
+            <img src="img/logoCervantes.png" alt="Institución Cervantes">
+
+        </header>
+
+        <Aside>
+
+
+            <nav class="menu">
+                <h4>MENU</h4>
+                <a href="Ingreso.html">Ingreso</a>
+                <a href="Listado.html">Listado</a>
+                <a href="Estadistica.html">Estadistica</a>
+
+            </nav>
+
+            <p>
+                Programación II <br>Trabajo Practico N°1
+            </p>
+
+            <h5>Montenegro, Federico Ariel </br>
+                Matricula: 28191 </br>
+                Division: 21 NMS</h5>
+
+        </Aside>
+
+        <Main>
+            <section>
+                <h4>INGRESO DE DATOS</h4>
+
+
+                <form action="">
+
+                    <p>
+                        <input type="text" id="txtCuil" placeholder="Cuil">
+                        <input type="text" id="txtApellido" placeholder="Apellido">
+                        <input type="text" id="txtNombre" placeholder="Nombre">
+                        <input type="text" id="txtFechaNac" placeholder="Fecha de nacimiento">                        
+                        <input type="text" id="txtNroVendedor" placeholder="Numero de vendedor">
+                        <input type="text" id="txtVenta" placeholder="Venta">
+                        <input type="text" id="txtCantProdVend" placeholder="Cantidad de productos vendidos">
+                        <input type="text" id="txtFecha" placeholder="Fecha">
+                    </p>
+                    <p>            
+                        <input type="button" value="Agregar" onclick="agregar()">
+                        <input type="button" value="Cancelar" onclick="cancelar()">
+                    </p>
+
+                </form>
+
+
+
+
+
+            </section>
+
+
+        </Main>
+
+        <footer>
+            <h5>Institución Cervantes - Analista de Sistema</h5>
+        </footer>
+
+
+
+    </div>
+
+</body>
+
+<script src="js/ingreso.js"></script>
+
+</html>
